@@ -1,0 +1,40 @@
+.title {
+  color: #333;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.subtitle {
+  margin: 8px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box_item {
+  min-width: 240px;
+  padding: 16px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+}
+.box_item:hover {
+  border-left: 8px solid #4979ff;
+}
+.single a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #4979ff;
+}
+.ninja_name {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.ninja_info {
+  margin: 0;
+  font-size: 14px;
+}

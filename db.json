@@ -1,0 +1,472 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post One",
+      "body": "This is a test body",
+      "publishedAt": "10-01-2020",
+      "author": "ntoufasg"
+    },
+    {
+      "id": "2",
+      "title": "Post Two",
+      "body": "Another test body",
+      "publishedAt": "10-02-2020",
+      "author": "ntoufasg"
+    },
+    {
+      "id": "3",
+      "title": "Post One",
+      "body": "This is a test body",
+      "publishedAt": "11-02-2020",
+      "author": "papanakosc"
+    },
+    {
+      "id": "4",
+      "title": "Post One",
+      "body": "This is a test body",
+      "publishedAt": "10-03-2020",
+      "author": "testeru"
+    }
+  ],
+
+    "personel": [
+        {
+          "id": "1",
+          "name": "Giorgos",
+          "surname": "Ntoufas",
+          "username": "ntoufasg",
+          "password": "",
+          "email": "ntoufasg@testing.com",
+          "location": "Greece",
+          "department": "development",
+          "title": "Web Developer",
+          "role": "admin"
+        },
+        {
+          "id": "2",
+          "name": "Christos",
+          "surname": "Papanakos",
+          "username": "papanakosc",
+          "password": "",
+          "email": "papanakosc@testing.com",
+          "location": "Greece",
+          "department": "administration",
+          "title": "Project Manager",
+          "role": "admin"
+        },
+        {
+          "id": "3",
+          "name": "Admin",
+          "surname": "Tester",
+          "username": "testera",
+          "password": "",
+          "email": "testera@testing.com",
+          "location": "Florida",
+          "department": "administration",
+          "title": "Warehouse Manager",
+          "role": "manager"
+        },
+        {
+          "id": "4",
+          "name": "User",
+          "surname": "Tester",
+          "username": "testeru",
+          "password": "",
+          "email": "testeru@testing.com",
+          "location": "Germany",
+          "department": "logistics",
+          "title": "Accountant",
+          "role": "user"
+        },
+        {
+          "id": "5",
+          "name": "Maria",
+          "surname": "Sapounaki",
+          "username": "sapounakim",
+          "password": "",
+          "email": "sapounakim@testing.com",
+          "location": "Shanghai",
+          "department": "marketing",
+          "title": "Web Designer",
+          "role": "user"
+        },
+        {
+          "id": "6",
+          "name": "Dimitris",
+          "surname": "Violakis",
+          "username": "violakisd",
+          "password": "",
+          "email": "violakisd@testing.com",
+          "location": "Auckland",
+          "department": "development",
+          "title": "Backend Developer",
+          "role": "user"
+        },
+        {
+          "id": "7",
+          "name": "Flora",
+          "surname": "Koukoutsi",
+          "username": "koukoutsif",
+          "password": "",
+          "email": "koukoutsif@testing.com",
+          "location": "Jiangsu",
+          "department": "logistics",
+          "title": "Accountant",
+          "role": "user"
+        },
+        {
+          "id": "8",
+          "name": "Manolis",
+          "surname": "Trolis",
+          "username": "trolism",
+          "password": "",
+          "email": "trolism@testing.com",
+          "location": "Sydney",
+          "department": "marketing",
+          "title": "SEO Manager",
+          "role": "user"
+        }
+    ],
+    "locations": [
+        {
+          "Australia": [
+            {
+              "status": "active",
+              "personel": "18",
+              "manager": "AU Manager Name",
+              "role": "Headquarters, Design, Warehouse"
+            }
+          ],
+          "Germany": [
+            {
+              "status": "active",
+              "personel": "6",
+              "manager": "Aegean",
+              "role": "Warehouse"
+            }
+          ],
+          "China": [
+            {
+              "status": "active",
+              "personel": "18",
+              "manager": "AU Manager Name",
+              "role": "Production, Warehouse"
+            }
+          ],
+          "USA": [
+            {
+              "status": "active",
+              "personel": "18",
+              "manager": "AU Manager Name",
+              "role": "Warehouse"
+            }
+          ],
+          "Greece": [
+            {
+              "status": "active",
+              "personel": "5",
+              "manager": "Chris Papanakos",
+              "role": "Administration, Support"
+            }
+          ]
+        }
+    ],
+
+
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Important meeting",
+      "body": "Meeting with shareholders",
+      "time": "11:00",
+      "date": "17/03/2021",
+      "type": "meeting",
+      "owner": "ntoufasg",
+      "participants": "",
+      "visibility": "public"
+    },
+    {
+      "id": "1",
+      "title": "Just a Task",
+      "body": "This is a task body",
+      "type": "meeting",
+      "owner": "ntoufasg",
+      "participants": "",
+      "visibility": "public"
+    }
+  ],
+
+  "sales": [
+    {
+      "receipts": [
+        {
+          "id": "1",
+          "products": "MA200",
+          "price": "175",
+          "buyer": "Joshua Francholini",
+          "email": "joshua@testing.com",
+          "address": "Plateia N. Smurnis, 16532, Greece",
+          "shipped-address": "Plateia N. Smurnis, 16532, Greece",
+          "shipped-name": "Joshua Francholini",
+          "date": "8/03/2021 13:42",
+          "type": "receipt",
+          "VAT": "",
+          "shipping-price": "20", 
+          "status": "Sent",
+          "affiliate": "no",
+          "affiliateLvl": "0",
+          "Return": "No",
+          "Refund": "No"
+        }
+      ],
+      "invoices": [
+        {
+          "id": "1",
+          "products": "MA200, MA185",
+          "price": "200",
+          "buyer": "King John",
+          "email": "theking@testing.com",
+          "address": "Kingdom of England 1",
+          "shipped-address": "Madagaskar square, Madagaskar 1972",
+          "shipped-name": "Humble Peasant",
+          "date": "08/03/2021 17:20",
+          "type": "invoice",
+          "vat": "166855264",
+          "business": "King John Inc",
+          "shipping-price": "20",
+          "status": "New",
+          "affiliate": "no",
+          "affiliateLvl": "0",
+          "Return": "No",
+          "Refund": "No"
+        }
+      ]
+    }
+  ],
+
+  "clientele": [
+    {
+      "individuals": [
+        {
+          "id": "1",
+          "name": "Joshua",
+          "surname": "Francholini",
+          "address": "Plateia N. Smurnis, 16532, Greece",
+          "email": "joshua@testing.com",
+          "type": "receipt",
+          "purchases": 3
+        },
+        {
+          "id": "2",
+          "name": "King John",
+          "surname": "His Majesty",
+          "address": "Kingdom of England 1",
+          "email": "theking@testing.com",
+          "type": "invoice",
+          "purchases": 1
+        },
+        {
+          "id": "3",
+          "name": "Long",
+          "surname": "Dong",
+          "address": "Chap chap 10, Tailand",
+          "email": "dongadong@testing.com",
+          "type": "receipt",
+          "purchases": 1
+        }
+      ],
+      "affiliates": [
+        {
+          "id": "1",
+          "name": "Boating and staff",
+          "country": "France",
+          "address": "Rue de Rivoli 52, Paris",
+          "email": "boating@test.com",
+          "phone": "9999999999",
+          "level": 3,
+          "purchases": 8
+        },
+        {
+          "id": "2",
+          "name": "More than a boat",
+          "country": "USA",
+          "address": "Sinking boat 36, Florida",
+          "email": "boating@test.com",
+          "phone": "9999999999",
+          "level": 1,
+          "purchases": 3
+        }
+      ]
+    }
+  ],
+
+  "loyalty": [
+    {
+      "levels": [
+        {
+          "1": "5",
+          "2": "10",
+          "3": "15",
+          "4": "20"
+        }
+      ]
+    }
+  ],
+
+  "markets": [
+    {
+      "web": [
+        {
+          "websites": [ "oceansouth.com", "oceansouth.com.au", "oceansouth.us", "oceansouth.co.nz" ],
+          "providers": [
+            {
+              "ebay": [ "ebayUS", "ebayCa", "ebayDE", "ebayUK", "ebayFR" ],
+              "amazon": [ "AmazonUS", "AmazonEU" ],
+              "ali": "Ali Express"
+            }
+          ]
+        }
+      ],
+      "dealers": [
+        {
+          "id": "1",
+          "name": "Free Boats",
+          "location": "Spain",
+          "level": 3
+        },
+        {
+          "id": "2",
+          "name":"Monster Dealer",
+          "location": "Washington",
+          "level": 1
+        }
+      ]
+    }
+  ],
+
+  "production": [
+    {
+      "products": [
+        {
+          "id": "1",
+          "SKU": "MA080-4",
+          "name": "Heavy Duty T-Top Deck Mount",
+          "category": "t-top"
+        },
+        {
+          "id": "2",
+          "SKU": "MA080-5",
+          "name": "Heavy Duty T-Top Console Mount",
+          "category": "t-top"
+        },
+        {
+          "id": "3",
+          "SKU": "MA200",
+          "name": "Bowrider Cover",
+          "category": "boat-covers"
+        },
+        {
+          "id": "4",
+          "SKU": "MA185",
+          "name": "Asymmetric Kayak Paddle",
+          "category": "paddles"
+        }
+      ],
+      "shipments": [
+        {
+          "scheduled": "none",
+          "enroute": [
+            {
+              "id": "1",
+              "from": "China",
+              "to": "Germany",
+              "shippedOn": "20/02/2021",
+              "arrival": "28/03/2021"
+            },
+            {
+              "id": "2",
+              "from": "China",
+              "to": "USA",
+              "shippedOn": "20/02/2021",
+              "arrival": "15/03/2021"
+            }
+          ],
+          "shipped": [
+            {
+              "id": "1",
+              "from": "China",
+              "to": "USA",
+              "shippedOn": "10/10/2020",
+              "arrival": "05/11/2020"
+            },
+            {
+              "id": "2",
+              "from": "China",
+              "to": "New Zealand",
+              "shippedOn": "14/10/2020",
+              "arrival": "24/10/2020"
+            },
+            {
+              "id": "3",
+              "from": "China",
+              "to": "Australia",
+              "shippedOn": "15/10/2020",
+              "arrival": "25/10/2020"
+            },
+            {
+              "id": "4",
+              "from": "China",
+              "to": "Europe",
+              "shippedOn": "26/10/2020",
+              "arrival": "15/11/2020"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "communications": [
+    {
+      "chat": [
+        {
+          "id": "1",
+          "author": "ntoufasg",
+          "receipient": "papanakosc",
+          "body": "test",
+          "priority": "normal"
+        },
+        {
+          "id": "2",
+          "author": "papanakosc",
+          "receipient": "ntoufasg",
+          "body": "look at this",
+          "priority": "important"
+        }
+      ],
+      "tickets": [
+        {
+          "id": "1",
+          "author": "ntoufasg",
+          "receipient": "papanakosc",
+          "title": "test ticket 1",
+          "body": "sneezing panda",
+          "category": "uncategorized",
+          "priority": "normal",
+          "timestamp": ""
+        },
+        {
+          "id": "2",
+          "author": "papanakosc",
+          "receipient": "ntoufasg",
+          "title": "test ticket 2",
+          "body": "lorem ipsum dolor sit amet",
+          "category": "payments",
+          "priority": "important",
+          "timestamp": ""
+        }
+      ]
+    }
+  ]
+}
