@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../../styles/Ninjas.module.css'
+import Link from 'next/link'
 
 export const getStaticProps = async () => {
 
@@ -18,7 +19,7 @@ const Ninjas = ({ ninjas }) => {
   return (
     <>
     <Head>
-      <title>Ninja List | Ninja Roster</title>
+      <title>My Dojo | Ninja Roster</title>
       <meta name="keywords" content="ninjas"/>
     </Head>
     <div>
@@ -26,15 +27,15 @@ const Ninjas = ({ ninjas }) => {
       <p className={styles.subtitle}>Step into my dojo if you want to find your mojo</p>
       <div className={styles.box}>
         {ninjas.map(ninja => (
-        <div className={styles.box_item} key={ninja.id}>
-          <a className={styles.single}>
-            <h3 className={styles.ninja_name}><a>{ninja.name} {ninja.surname}</a></h3>
-            <p className={styles.ninja_info}><strong>Department</strong>: <a>{ninja.department}</a></p>
-            <p className={styles.ninja_info}><strong>Title</strong>: <a>{ninja.title}</a></p>
-            <p className={styles.ninja_info}><strong>Email</strong>: <a>{ninja.email}</a></p>
-            <p className={styles.ninja_info}><strong>Location</strong>: <a>{ninja.location}</a></p>
-          </a>
-        </div>
+          <div className={styles.box_item}>
+            <Link href={ '/ninjas/' + ninja.id } key={ ninja.id }>
+              <div>
+                <h3 className={styles.ninja_name}>{ ninja.name } { ninja.surname }</h3>
+                <p className={styles.ninja_info}><strong>Title</strong>: { ninja.title }</p>
+                <p className={styles.ninja_info}><strong>Location</strong>: { ninja.location }</p>
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
     </div>

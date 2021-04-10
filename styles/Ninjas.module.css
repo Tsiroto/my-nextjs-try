@@ -16,25 +16,58 @@
 }
 .box_item {
   min-width: 240px;
-  padding: 16px 16px;
+  padding: 12px;
   background: #fff;
   display: block;
-  margin: 20px 10px;
+  margin: 10px;
   border-left: 8px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #00000024;
+  transition: 0.1s linear;
 }
 .box_item:hover {
   border-left: 8px solid #4979ff;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.ninja_name {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.ninja_info {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+.avatar {
+  border-radius: 50%;
+}
+.single_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 20px;
+}
+.single_box > div:first-child {
+  margin-top: 20px;
+}
+.single {
+  min-width: 300px;
 }
 .single a:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #4979ff;
 }
-.ninja_name {
-  font-size: 18px;
+
+.single_name {
   margin: 10px 0;
 }
-.ninja_info {
+.single p {
   margin: 0;
-  font-size: 14px;
 }
+

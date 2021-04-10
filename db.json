@@ -39,21 +39,34 @@
           "password": "",
           "email": "ntoufasg@testing.com",
           "location": "Greece",
+          "address": "Mysterious Address 11",
+          "number": "+30 6999889989",
           "department": "development",
           "title": "Web Developer",
-          "role": "admin"
+          "team": "",
+          "supervisor": "E-Commerce Manager",
+          "hiredOn": "01/06/2018",
+          "role": "admin",
+          "avatar": "/prof1.jpg",
+          "comments": "This is a comment about Giorgos"
         },
         {
           "id": "2",
           "name": "Christos",
-          "surname": "Papanakos",
-          "username": "papanakosc",
+          "surname": "Papoulakos",
+          "username": "papoulakosc",
           "password": "",
-          "email": "papanakosc@testing.com",
+          "email": "papoulakos@testing.com",
           "location": "Greece",
+          "address": "Mysterious Address 12",
+          "number": "+30 6999889989",
           "department": "administration",
-          "title": "Project Manager",
-          "role": "admin"
+          "title": "E-Commerce Manager",
+          "supervisor": "Boss",
+          "hiredOn": "01/08/2016",
+          "role": "admin",
+          "avatar": "https://assets.codepen.io/3765537/prof1.jpg",
+          "comments": ""
         },
         {
           "id": "3",
@@ -63,9 +76,15 @@
           "password": "",
           "email": "testera@testing.com",
           "location": "Florida",
+          "address": "Mysterious Address 13",
+          "number": "+30 6999889989",
           "department": "administration",
           "title": "Warehouse Manager",
-          "role": "manager"
+          "supervisor": "Boss",
+          "hiredOn": "01/03/2015",
+          "role": "manager",
+          "avatar": "3",
+          "comments": ""
         },
         {
           "id": "4",
@@ -75,9 +94,15 @@
           "password": "",
           "email": "testeru@testing.com",
           "location": "Germany",
+          "address": "Mysterious Address 14",
+          "number": "+30 6999889989",
           "department": "logistics",
           "title": "Accountant",
-          "role": "user"
+          "supervisor": "Warehouse Manager",
+          "hiredOn": "01/04/2015",
+          "role": "user",
+          "avatar": "4",
+          "comments": ""
         },
         {
           "id": "5",
@@ -87,9 +112,15 @@
           "password": "",
           "email": "sapounakim@testing.com",
           "location": "Shanghai",
+          "address": "Mysterious Address 15",
+          "number": "+30 6999889989",
           "department": "marketing",
           "title": "Web Designer",
-          "role": "user"
+          "supervisor": "Marketing Manager",
+          "hiredOn": "01/11/2020",
+          "role": "user",
+          "avatar": "5",
+          "comments": ""
         },
         {
           "id": "6",
@@ -99,9 +130,15 @@
           "password": "",
           "email": "violakisd@testing.com",
           "location": "Auckland",
+          "address": "Mysterious Address 16",
+          "number": "+30 6999889989",
           "department": "development",
-          "title": "Backend Developer",
-          "role": "user"
+          "title": "Sales",
+          "supervisor": "Sales Manager",
+          "hiredOn": "01/01/2010",
+          "role": "user",
+          "avatar": "6",
+          "comments": ""
         },
         {
           "id": "7",
@@ -111,9 +148,15 @@
           "password": "",
           "email": "koukoutsif@testing.com",
           "location": "Jiangsu",
+          "address": "Mysterious Address 17",
+          "number": "+30 6999889989",
           "department": "logistics",
           "title": "Accountant",
-          "role": "user"
+          "supervisor": "Warehouse Manager",
+          "hiredOn": "01/02/2019",
+          "role": "user",
+          "avatar": "7",
+          "comments": ""
         },
         {
           "id": "8",
@@ -123,53 +166,80 @@
           "password": "",
           "email": "trolism@testing.com",
           "location": "Sydney",
+          "address": "Mysterious Address 18",
+          "number": "+30 6999889989",
           "department": "marketing",
-          "title": "SEO Manager",
-          "role": "user"
+          "title": "Sales Manager",
+          "supervisor": "Boss",
+          "hiredOn": "01/10/2014",
+          "role": "manager",
+          "avatar": "8",
+          "comments": ""
         }
     ],
     "locations": [
         {
-          "Australia": [
-            {
-              "status": "active",
-              "personel": "18",
-              "manager": "AU Manager Name",
-              "role": "Headquarters, Design, Warehouse"
-            }
-          ],
-          "Germany": [
-            {
-              "status": "active",
-              "personel": "6",
-              "manager": "Aegean",
-              "role": "Warehouse"
-            }
-          ],
-          "China": [
-            {
-              "status": "active",
-              "personel": "18",
-              "manager": "AU Manager Name",
-              "role": "Production, Warehouse"
-            }
-          ],
-          "USA": [
-            {
-              "status": "active",
-              "personel": "18",
-              "manager": "AU Manager Name",
-              "role": "Warehouse"
-            }
-          ],
-          "Greece": [
-            {
-              "status": "active",
-              "personel": "5",
-              "manager": "Chris Papanakos",
-              "role": "Administration, Support"
-            }
-          ]
+          "id": "1",
+          "name": "Syndey, Australia",
+          "status": "active",
+          "personel": "18",
+          "manager": "AU Manager",
+          "role": "Headquarters, Management, Distribution",
+          "stock": "83%"
+        },
+        {
+          "id": "2",
+          "name": "Bremen, Germany",
+          "status": "active",
+          "personel": "6",
+          "manager": "Aegean",
+          "role": "Distribution",
+          "stock": "67%"
+        },
+        {
+          "id": "3",
+          "name": "Shanghai, China",
+          "status": "active",
+          "personel": "18",
+          "manager": "China Manager",
+          "role": "Production, Distribution",
+          "stock": "96%"
+        },
+        {
+          "id": "4",
+          "name": "Jiangsu, China",
+          "status": "active",
+          "personel": "21",
+          "manager": "China 2 Manager",
+          "role": "Production, Distribution",
+          "stock": "91"
+        },
+        {
+          "id": "5",
+          "name": "Florida, USA",
+          "status": "active",
+          "personel": "18",
+          "manager": "Giorgos",
+          "role": "Distribution",
+          "stock": "85%"
+        },
+        {
+          "id": "6",
+          "name": "Athens, Greece",
+          "status": "active",
+          "personel": "5",
+          "manager": "Christos",
+          "role": "Management, Support",
+          "stock": "N/A"
+        },
+        {
+          "id": "7",
+          "name": "Auckland, New Zealand",
+          "status": "active",
+          "personel": "5",
+          "manager": "Auckland Manager",
+          "role": "Distribution",
+          "stock": "91%"
         }
     ],
 
