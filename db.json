@@ -30,7 +30,7 @@
     }
   ],
 
-    "personel": [
+    "personnel": [
         {
           "id": "1",
           "name": "Giorgos",
@@ -41,13 +41,14 @@
           "location": "Greece",
           "address": "Mysterious Address 11",
           "number": "+30 6999889989",
+          "dob": "07/05/1986",
           "department": "development",
           "title": "Web Developer",
           "team": "",
           "supervisor": "E-Commerce Manager",
           "hiredOn": "01/06/2018",
           "role": "admin",
-          "avatar": "/prof1.jpg",
+          "image": "/prof1.jpg",
           "comments": "This is a comment about Giorgos"
         },
         {
@@ -60,12 +61,13 @@
           "location": "Greece",
           "address": "Mysterious Address 12",
           "number": "+30 6999889989",
+          "dob": "21/03/1987",
           "department": "administration",
           "title": "E-Commerce Manager",
-          "supervisor": "Boss",
+          "supervisor": "CEO",
           "hiredOn": "01/08/2016",
           "role": "admin",
-          "avatar": "https://assets.codepen.io/3765537/prof1.jpg",
+          "image": "/prof2.jpg",
           "comments": ""
         },
         {
@@ -78,12 +80,13 @@
           "location": "Florida",
           "address": "Mysterious Address 13",
           "number": "+30 6999889989",
+          "dob": "01/01/1987",
           "department": "administration",
           "title": "Warehouse Manager",
-          "supervisor": "Boss",
+          "supervisor": "CEO",
           "hiredOn": "01/03/2015",
           "role": "manager",
-          "avatar": "3",
+          "image": "/prof3.jpg",
           "comments": ""
         },
         {
@@ -96,12 +99,13 @@
           "location": "Germany",
           "address": "Mysterious Address 14",
           "number": "+30 6999889989",
+          "dob": "01/01/1988",
           "department": "logistics",
           "title": "Accountant",
           "supervisor": "Warehouse Manager",
           "hiredOn": "01/04/2015",
           "role": "user",
-          "avatar": "4",
+          "image": "/prof4.jpg",
           "comments": ""
         },
         {
@@ -114,12 +118,13 @@
           "location": "Shanghai",
           "address": "Mysterious Address 15",
           "number": "+30 6999889989",
+          "dob": "01/01/1990",
           "department": "marketing",
           "title": "Web Designer",
           "supervisor": "Marketing Manager",
           "hiredOn": "01/11/2020",
           "role": "user",
-          "avatar": "5",
+          "image": "/prof5.jpg",
           "comments": ""
         },
         {
@@ -132,12 +137,13 @@
           "location": "Auckland",
           "address": "Mysterious Address 16",
           "number": "+30 6999889989",
-          "department": "development",
+          "dob": "01/01/1980",
+          "department": "Sales",
           "title": "Sales",
           "supervisor": "Sales Manager",
           "hiredOn": "01/01/2010",
           "role": "user",
-          "avatar": "6",
+          "image": "/prof6.jpg",
           "comments": ""
         },
         {
@@ -150,12 +156,13 @@
           "location": "Jiangsu",
           "address": "Mysterious Address 17",
           "number": "+30 6999889989",
+          "dob": "01/01/1979",
           "department": "logistics",
           "title": "Accountant",
           "supervisor": "Warehouse Manager",
           "hiredOn": "01/02/2019",
           "role": "user",
-          "avatar": "7",
+          "image": "/prof7.jpg",
           "comments": ""
         },
         {
@@ -168,12 +175,13 @@
           "location": "Sydney",
           "address": "Mysterious Address 18",
           "number": "+30 6999889989",
+          "dob": "01/01/1977",
           "department": "marketing",
           "title": "Sales Manager",
-          "supervisor": "Boss",
+          "supervisor": "CEO",
           "hiredOn": "01/10/2014",
           "role": "manager",
-          "avatar": "8",
+          "image": "/prof8.jpg",
           "comments": ""
         }
     ],
@@ -181,65 +189,86 @@
         {
           "id": "1",
           "name": "Syndey, Australia",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "18",
           "manager": "AU Manager",
           "role": "Headquarters, Management, Distribution",
-          "stock": "83%"
+          "stock": "83%",
+          "operatingSince": "01/08/2000"
         },
         {
           "id": "2",
           "name": "Bremen, Germany",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "6",
           "manager": "Aegean",
           "role": "Distribution",
-          "stock": "67%"
+          "stock": "67%",
+          "operatingSince": "01/08/2016"
         },
         {
           "id": "3",
           "name": "Shanghai, China",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "18",
           "manager": "China Manager",
           "role": "Production, Distribution",
-          "stock": "96%"
+          "stock": "96%",
+          "operatingSince": "01/08/2004"
         },
         {
           "id": "4",
           "name": "Jiangsu, China",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "21",
           "manager": "China 2 Manager",
           "role": "Production, Distribution",
-          "stock": "91"
+          "stock": "91",
+          "operatingSince": "01/08/2010"
         },
         {
           "id": "5",
           "name": "Florida, USA",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "18",
           "manager": "Giorgos",
           "role": "Distribution",
-          "stock": "85%"
+          "stock": "85%",
+          "operatingSince": "01/08/2015"
         },
         {
           "id": "6",
           "name": "Athens, Greece",
+          "address": "Nea Smirni",
+          "land": "",
           "status": "active",
           "personel": "5",
           "manager": "Christos",
           "role": "Management, Support",
-          "stock": "N/A"
+          "stock": "N/A",
+          "operatingSince": "01/08/2016"
         },
         {
           "id": "7",
           "name": "Auckland, New Zealand",
+          "address": "",
+          "land": "",
           "status": "active",
           "personel": "5",
           "manager": "Auckland Manager",
           "role": "Distribution",
-          "stock": "91%"
+          "stock": "91%",
+          "operatingSince": "01/08/2014"
         }
     ],
 
