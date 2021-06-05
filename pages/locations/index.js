@@ -31,8 +31,8 @@ const Locations = ({ dojos }) => {
             <h3 className={styles.dojo_name}>{dojo.name}</h3>
             <p><strong>Status</strong>: {dojo.status}</p>
             <p className={styles.dojo_info}><strong>Stock</strong>: <Link href="/production">{dojo.stock}</Link></p>
-            <p className={styles.dojo_info}><strong>Personel</strong>: <Link href="/ninjas">{dojo.personel}</Link></p>
-            <p className={styles.dojo_info}><strong>Manager</strong>: <Link href="/ninjas">{dojo.manager}</Link></p>
+            <p className={styles.dojo_info}><strong>Personel</strong>: <Link href="/people">{dojo.personel}</Link></p>
+            <p className={styles.dojo_info}><strong>Manager</strong>: <Link href="/people">{dojo.manager}</Link></p>
             <p className={styles.dojo_info}><strong>Role</strong>: <Link href="/production">{dojo.role}</Link></p>
           </div>
           </Link>

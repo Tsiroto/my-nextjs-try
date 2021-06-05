@@ -47,7 +47,7 @@ const Loca = ( { dojo } ) => {
           <p><strong>Location</strong>: <Link href="/locations">{ dojo.location }</Link></p>
           <p><strong>Address</strong>: <Link href="/">{ dojo.address }</Link></p>
           <p><strong>Personel</strong>: <Link href="/">{ dojo.personel }</Link></p>
-          <p><strong>Manager</strong>: <Link href="/ninjas">{ dojo.manager }</Link></p>
+          <p><strong>Manager</strong>: <Link href="/people">{ dojo.manager }</Link></p>
           <p><strong>Operating since</strong>: { dojo.operatingSince }</p>
           <p><strong>Role</strong>: <Link href="/">{ dojo.role }</Link></p>
           <p><strong>Stock</strong>: <Link href="/">{ dojo.stock }</Link></p>

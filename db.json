@@ -43,13 +43,15 @@
           "number": "+30 6999889989",
           "dob": "07/05/1986",
           "department": "development",
-          "title": "Web Developer",
+          "title": "Software Engineer",
           "team": "",
           "supervisor": "E-Commerce Manager",
-          "hiredOn": "01/06/2018",
+          "hiredOn": "03/05/2019",
           "role": "admin",
           "image": "/prof1.jpg",
-          "comments": "This is a comment about Giorgos"
+          "comments": "This is a comment about Giorgos",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "2",
@@ -68,7 +70,9 @@
           "hiredOn": "01/08/2016",
           "role": "admin",
           "image": "/prof2.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "3",
@@ -87,7 +91,9 @@
           "hiredOn": "01/03/2015",
           "role": "manager",
           "image": "/prof3.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "4",
@@ -106,7 +112,9 @@
           "hiredOn": "01/04/2015",
           "role": "user",
           "image": "/prof4.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "5",
@@ -125,7 +133,9 @@
           "hiredOn": "01/11/2020",
           "role": "user",
           "image": "/prof5.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "6",
@@ -144,7 +154,9 @@
           "hiredOn": "01/01/2010",
           "role": "user",
           "image": "/prof6.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "7",
@@ -163,7 +175,9 @@
           "hiredOn": "01/02/2019",
           "role": "user",
           "image": "/prof7.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
         },
         {
           "id": "8",
@@ -172,7 +186,7 @@
           "username": "trolism",
           "password": "",
           "email": "trolism@testing.com",
-          "location": "Sydney",
+          "location": "Australia",
           "address": "Mysterious Address 18",
           "number": "+30 6999889989",
           "dob": "01/01/1977",
@@ -182,7 +196,29 @@
           "hiredOn": "01/10/2014",
           "role": "manager",
           "image": "/prof8.jpg",
-          "comments": ""
+          "comments": "",
+          "quote": "Something about me",
+          "private": false
+        },
+        {
+          "id": "9",
+          "name": "James",
+          "surname": "Holden",
+          "username": "holdenj",
+          "password": "",
+          "email": "holdenj@testing.com",
+          "location": "Germany",
+          "address": "Mysterious Address 19",
+          "number": "+30 6999889989",
+          "dob": "01/01/1981",
+          "department": "Management",
+          "title": "Warehouse Manager",
+          "supervisor": "CEO",
+          "hiredOn": "01/10/2000",
+          "role": "manager",
+          "image": "/prof9.jpg",
+          "comments": "",
+          "private": false
         }
     ],
     "locations": [

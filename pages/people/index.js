@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
 
 }
 
-const Ninjas = ({ ninjas }) => {
+const People = ({ ninjas }) => {
   return (
     <>
     <Head>
@@ -21,12 +21,13 @@ const Ninjas = ({ ninjas }) => {
       <meta name="keywords" content="ninjas"/>
     </Head>
     <div>
-      <h1 className={styles.title}>My faithful ninjas</h1>
-      <p className={styles.subtitle}>Step into my dojo if you want to find your mojo</p>
+      <h1 className={styles.title}>Personnel</h1>
+      <p className={styles.subtitle}>Search for a person</p>
+      <input type="text" className={styles.search_pers} />
       <div className={styles.box}>
         {ninjas.map(ninja => (
           <div className={styles.box_item}>
-            <Link href={ '/ninjas/' + ninja.id } key={ ninja.id }>
+            <Link href={ '/people/' + ninja.id } key={ ninja.id }>
               <div>
                 <h3 className={styles.ninja_name}>{ ninja.name } { ninja.surname }</h3>
                 <p className={styles.ninja_info}><strong>Title</strong>: { ninja.title }</p>
@@ -41,4 +42,4 @@ const Ninjas = ({ ninjas }) => {
   );
 }
  
-export default Ninjas;
+export default People;

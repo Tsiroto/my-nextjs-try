@@ -22,3 +22,7 @@
   filter: hue-rotate(90deg);
   transition: 0.1s all;
 }
+
+.office > h1{
+  margin: auto;
+}
