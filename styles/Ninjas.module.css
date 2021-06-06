@@ -153,3 +153,12 @@
   border-color: #00215733;
   padding: 10px 2%;
 }
+
+.MuiCardHeader-action {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+
+.MuiListItemIcon-root {
+  min-width: auto!important;
+}

@@ -90,7 +90,7 @@ const NinjaTag = ( { ninja } ) => {
   return (
     <Card className={classes.card}>
       <Head>
-        <title>Dashboard | Ninja Tag</title>
+        <title>Dashboard | Person Tag</title>
         <meta name="keywords" content="people"/>
       </Head>
       <AppBar position="static">

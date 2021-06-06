@@ -22,8 +22,8 @@ const People = ({ ninjas }) => {
     </Head>
     <div>
       <h1 className={styles.title}>Personnel</h1>
-      <p className={styles.subtitle}>Search for a person</p>
-      <input type="text" className={styles.search_pers} />
+      {/* <p className={styles.subtitle}>Search for a person</p> */}
+      <input type="text" className={styles.search_pers} placeholder="Search for a person" />
       <div className={styles.box}>
         {ninjas.map(ninja => (
           <div className={styles.box_item}>

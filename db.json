@@ -314,21 +314,27 @@
       "id": "1",
       "title": "Important meeting",
       "body": "Meeting with shareholders",
+      "list": [],
       "time": "11:00",
       "date": "17/03/2021",
       "type": "meeting",
       "owner": "ntoufasg",
       "participants": "",
-      "visibility": "public"
+      "visibility": "public",
+      "priority":"important"
     },
     {
-      "id": "1",
-      "title": "Just a Task",
-      "body": "This is a task body",
-      "type": "meeting",
+      "id": "2",
+      "title": "Targa Top Launch",
+      "body": "",
+      "list": [ "item", "item2", "item3", "item4" ],
+      "time": "11:00",
+      "date": "17/03/2021",
+      "type": "deadline",
       "owner": "ntoufasg",
       "participants": "",
-      "visibility": "public"
+      "visibility": "public",
+      "priority":"normal"
     }
   ],
 

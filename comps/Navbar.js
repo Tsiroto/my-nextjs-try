@@ -9,13 +9,14 @@ const Navbar = () => {
         <h3>Oceansouth</h3>
       </div>
       <Link href="/"><a>Home</a></Link>
-      <Link href="/office"><a>| Office DB</a></Link>
+      <Link href="/office"><a>| Office</a></Link>
       <Link href="/sales"><a>| Sales</a></Link>
       <Link href="/marketing"><a>| Marketing</a></Link>
       <Link href="/markets"><a>| Markets</a></Link>
       <Link href="/production"><a>| Production</a></Link>
-      <Link href="/warehouse"><a>| Warehouse OP</a></Link>
+      <Link href="/distribution"><a>| Distribution</a></Link>
       <Link href="/comms"><a>| Communications</a></Link>
+      <Link href="/tasks"><a>| Tasks</a></Link>
     </nav>
   );
 }
